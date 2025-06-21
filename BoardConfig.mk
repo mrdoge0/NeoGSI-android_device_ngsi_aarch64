@@ -18,6 +18,9 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a73
 
+# AOSP-ize even more
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # DON'T create extras!
 TARGET_NO_RECOVERY := true
 TARGET_NO_BOOTLOADER := true
