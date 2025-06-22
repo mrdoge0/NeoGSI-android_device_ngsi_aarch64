@@ -6,7 +6,9 @@
 
 # Inherit NeoGSI ARM64 configs
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ngsi_aarch64_SaR.mk \
-    $(LOCAL_DIR)/aosp_ngsi_aarch64_SaS.mk \
-    $(LOCAL_DIR)/lineage_ngsi_aarch64_SaR.mk \
-    $(LOCAL_DIR)/lineage_ngsi_aarch64_SaS.mk
+    device/ngsi/aarch64/aosp_ngsi_aarch64_SaR.mk \
+    device/ngsi/aarch64/aosp_ngsi_aarch64_SaS.mk \
+    device/ngsi/aarch64/lineage_ngsi_aarch64_SaR.mk \
+    device/ngsi/aarch64/lineage_ngsi_aarch64_SaS.mk \
+    device/ngsi/aarch64/pixelage_ngsi_aarch64_SaR.mk \
+    device/ngsi/aarch64/pixelage_ngsi_aarch64_SaS.mk
