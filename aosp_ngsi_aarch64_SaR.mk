@@ -10,6 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product-if-exists, build/target/product/embedded.mk)
 
+# Inherit ROM config if the ROM is a Pixel replica with aosp_* targets (this does absolutely nothing on pure AOSP builds)
+$(call inherit-product-if-exists, vendor/aosp/config/common_full_phone.mk)
+
 # Inherit NeoGSI common makefile
 $(call inherit-product, vendor/ngsi/implement.mk)
 
