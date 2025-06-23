@@ -16,9 +16,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit NeoGSI common makefile
 $(call inherit-product, vendor/ngsi/implement.mk)
 
-# SaR (System-as-Root)
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-
 # Set initial device and target info
 PRODUCT_NAME := lineage_ngsi_aarch64_SaR
 PRODUCT_DEVICE := generic_arm64
